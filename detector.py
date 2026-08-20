@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     print("=" * 55)
     print("   🔍 Lebanese Phishing URL Detector")
-    print("   Lebanon ranks 127th in global cybersecurity.")
+    print("   Lebanon ranks 132nd in global cybersecurity.")
     print("   This tool helps protect Lebanese users online.")
     print("=" * 55)
 

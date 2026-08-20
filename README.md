@@ -2,7 +2,7 @@
 
 An ML-powered phishing URL detection system built to protect Lebanese users from cybersecurity threats.
 
-Lebanon ranks 127th globally in cybersecurity. This project applies machine learning to classify URLs as phishing or legitimate.
+Lebanon ranks 132nd globally in cybersecurity. This project applies machine learning to classify URLs as phishing or legitimate.
 
 ## Models Compared
 - Logistic Regression (Lecture 2)
