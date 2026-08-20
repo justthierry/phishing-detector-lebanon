@@ -75,7 +75,7 @@ def run_agent(model, url):
             for r in reasons:
                 print(r)
 
-    print("\n🇱🇧 Protecting Lebanese users from phishing attacks.\n")
+    print("\n Protecting Lebanese users from phishing attacks.\n")
 
 # ── Main ───────────────────────────────────────────────────────────────
 if __name__ == "__main__":
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         with open('rf_model.pkl', 'rb') as f:
             model = pickle.load(f)
     except FileNotFoundError:
-        print("❌ Model not found. Run the notebook first to train and save the model.")
+        print(" Model not found. Run the notebook first to train and save the model.")
         sys.exit(1)
 
     print("=" * 55)
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     while True:
         url = input("\nEnter a URL to check (or 'quit' to exit): ").strip()
         if url.lower() == 'quit':
-            print("Stay safe online! 🇱🇧")
+            print("Stay safe online Lebanon!")
             break
         if not url:
             continue
